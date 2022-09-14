@@ -13,6 +13,7 @@ public class StandardDAO {
         //connection
         Connection connection = DbConnection.getConnection();
         /*Statement statement = connection.createStatement();
+        
         String sql = "INSERT INTO class_tbl VALUES("
                 + standard.getStandard() +","+ standard.getSection()+")";*/
         // read about prepared statements

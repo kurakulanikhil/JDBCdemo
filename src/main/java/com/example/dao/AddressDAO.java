@@ -8,7 +8,9 @@ import java.sql.*;
 
 public class AddressDAO {
 
-    public int insertIntoAddress(Address address) throws SQLException,ClassNotFoundException {
+    public int insertIntoAddress(Address address) throws SQLException,ClassNotFoundException
+
+    {
         int rows = 0;
 
         Connection connection = DbConnection.getConnection();
